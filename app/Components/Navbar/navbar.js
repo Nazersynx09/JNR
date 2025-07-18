@@ -40,7 +40,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#contact"
+              href="#Contact"
               className="hover:text-gray-400 hover:underline underline-offset-4 transition-colors duration-200"
             >
               Contact
@@ -86,7 +86,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#contact"
+              href="#Contact"
               className="hover:text-gray-400 hover:underline underline-offset-4 transition-colors duration-200"
               onClick={toggleMenu}
             >

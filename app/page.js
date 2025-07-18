@@ -3,6 +3,7 @@ import Hero from "./Components/Hero/hero";
 import About from "./Components/About/about";
 import Projects from "./Components/Projects/project";
 import Contact from "./Components/Contact/contact";
+import Footer from "./Components/Footer/footer";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   );
 }
