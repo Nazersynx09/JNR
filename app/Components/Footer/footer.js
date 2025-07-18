@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => (
     <div id="footer"
         style={{
-            background: "#2a2a2a", // corrected zinc-900 as hex
+            background: "#2b2929ff", // corrected zinc-900 as hex
             color: "#fff",
             fontFamily: "Inter",
             display: "flex",
