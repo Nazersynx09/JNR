@@ -3,45 +3,42 @@ import React from "react";
 
 // About component: Displays information about the user and their education timeline
 const About = () => (
-    <div
-        id="about"
+    <div id="about"
         // Main container styling
         style={{
-            background: "zinc-900", // Background color
-            color: "#fff",           // Text color
-            minHeight: "300vh",      // Full viewport height
-            padding: "40px 0", fontFamily: "Inter", display: "flex", flexDirection: "column", alignItems: "center"
-        }}
-    >
-        {/* Header Section */}
-        <div
-            style={{
-                textAlign: "center",
-                marginBottom: "40px",
-                marginTop: "30px",
-                width: "100%"
-            }}
-        >
-            {/* About Me Label */}
-            <h1
-                style={{
-                    fontSize: "3em", fontWeight: "bold", letterSpacing: "2px"
-                }}
-            >
-                About Me
-            </h1>
-            {/* About Me Description */}
-            <p style={{ fontWeight: "normal" }}>
-                I'm an Information Systems student with a passion for front-end development, data visualization, and clean UI/UX.
-            </p>
-        </div>
+                background: "zinc-900", // Background color
+                color: "#fff",           // Text color
+                minHeight: "300vh",      // Full viewport height
+                padding: "40px 0", fontFamily: "Inter", display: "flex", flexDirection: "column", alignItems: "center"
+                }}>
+                {/* Header Section */}
+                <div
+                    style={{
+                        textAlign: "center",
+                        marginBottom: "40px",
+                        marginTop: "30px",
+                        width: "100%"
+                    }} >
+                    {/* About Me Label */}
+                    <h1
+                        style={{
+                            fontSize: "3em", fontWeight: "bold", letterSpacing: "2px"
+                        }}
+                    >
+                        About Me
+                    </h1>
+                    {/* About Me Description */}
+                    <p style={{ fontWeight: "normal" }}>
+                        I'm an Information Systems student with a passion for front-end development, data visualization, and clean UI/UX.
+                    </p>
+                </div>
 
-        {/* Education Label */}
-            <div style={{textAlign: "center", fontWeight: "bold", marginBottom: "20px", marginTop: "60px", width: "100%"}}>
-                EDUCATION
-            </div>
+                    {/* Education Label */}
+                <div style={{textAlign: "center", fontWeight: "bold", marginBottom: "20px", marginTop: "60px", width: "100%"}}>
+                    EDUCATION
+                </div>
 
-        {/* Education Cards Section */}
+                {/* Education Cards Section */}
                     <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 center" 
                         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "20px" }}>
                         {/* Card 1 */}
@@ -66,11 +63,11 @@ const About = () => (
            
 
 
-        {/* Experience Label */}
-            <div
-                style={{textAlign: "center", fontWeight: "bold", marginBottom: "20px", marginTop: "60px", width: "100%" }}>
-                EXPERIENCE
-            </div>    
+                {/* Experience Label */}
+                    <div
+                        style={{textAlign: "center", fontWeight: "bold", marginBottom: "20px", marginTop: "60px", width: "100%" }}>
+                        EXPERIENCE
+                    </div>    
 
                 <div className="column" style={{ display: "flex", flexDirection: "column", alignItems: "center", gridGap: "20px" }}>
                     {/* Card 1 */}
@@ -122,12 +119,7 @@ const About = () => (
                             <li>- Manages the overall operation</li>
                         </ul>
                         </div>
-
-
-
                 </div>
-       
-  
     </div>
 );
 
